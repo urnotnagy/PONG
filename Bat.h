@@ -9,7 +9,7 @@ private:
 	Vector2f Position;
 	// A Rectangle Shape object is necessary to render the bat
 	RectangleShape Shape;
-	float Speed = 500.0f;
+	float Speed = 300.0f;
 	bool MovingRight = false;
 	bool MovingLeft = false;
 
@@ -18,11 +18,13 @@ public:
 	Bat(float startX, float startY);
 	FloatRect getPosition();
 	RectangleShape getShape();
+	void setColor(sf::Color color);
 	void moveLeft();
 	void moveRight();
 	void stopLeft();
 	void stopRight();
 	void update(Time dt);
+	void setPosition(int x, int y);
 
 };
 
