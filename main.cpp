@@ -24,11 +24,13 @@ int main()
 	Ball ball(resolution_x / 2, resolution_y / 2);
 
 	// My color pallet
-//	sf::Color colorDark(113, 31, 17, 255);
-//	sf::Color bgColor(252, 237, 134, 255);
+//	sf::Color colorDark(200, 200, 200, 255);
+//	sf::Color bgColor(50, 50, 50, 255);
 
 	sf::Color colorDark(248, 228, 132, 255);
 	sf::Color bgColor(116, 28, 19, 255);
+
+
 
 
 	bat1.setColor(colorDark);
